@@ -72,7 +72,7 @@ export const products = [
     title: "4th May 2024",
     link: "#",
     thumbnail:
-      "/images/wedding/haldi2hero.jpg",
+      "/images/wedding/haldi1hero.jpg",
   },
 
   {
