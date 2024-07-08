@@ -79,7 +79,7 @@ export const products = [
     title: "3rd May 2025",
     link: "#",
     thumbnail:
-      "/images/wedding/haldihero.jpg",
+      "/images/wedding/mehendihero.jpg",
   },
   {
     title: "5th May 2024",
