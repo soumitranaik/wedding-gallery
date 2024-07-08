@@ -17,8 +17,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",  // Ensure this is set
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // Ensure this is set
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
