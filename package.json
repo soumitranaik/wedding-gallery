@@ -17,7 +17,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.14",
     "lightgallery": "^2.7.2",
-    "next": "14.2.4",
+    "next": "^14.2.5",
     "next-google-fonts": "^2.2.0",
     "react": "^18",
     "react-dom": "^18",

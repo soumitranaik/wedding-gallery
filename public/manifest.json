@@ -1,6 +1,6 @@
 {
-    "name": "My awesome PWA app",
-    "short_name": "PWA App",
+    "name": "Wedding Album",
+    "short_name": "Wedding Album",
     "icons": [
       {
         "src": "/icons/icon192.png",

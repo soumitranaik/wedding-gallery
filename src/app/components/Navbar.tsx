@@ -21,10 +21,10 @@ const Navbar = () => {
             <div></div>
             <Link href="/">Pre-wedding</Link>
 
-            <Link href="/">Mehendi</Link>
-            <Link href="/">Pranjali Haldi</Link>
+            <Link href="/mehendi">Mehendi</Link>
+            <Link href="/pranjali-haldi">Pranjali Haldi</Link>
             <Link href="/">Soumitra Haldi</Link>
-            <Link href="/">Wedding</Link>
+            <Link href="/wedding">Wedding</Link>
             <Link href="/">Video</Link>
           </div>
           <div className="md:hidden">
