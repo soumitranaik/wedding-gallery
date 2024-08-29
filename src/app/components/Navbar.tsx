@@ -20,12 +20,11 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-6">
             <div></div>
             <Link href="/">Pre-wedding</Link>
-
             <Link href="/mehendi">Mehendi</Link>
             <Link href="/pranjali-haldi">Pranjali Haldi</Link>
-            <Link href="/">Soumitra Haldi</Link>
+            <Link href="/soumitra-haldi">Soumitra Haldi</Link>
             <Link href="/wedding">Wedding</Link>
-            <Link href="/">Video</Link>
+            <Link href="/video">Video</Link>
           </div>
           <div className="md:hidden">
             <button
