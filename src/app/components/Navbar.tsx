@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div></div>
-      <nav className="bg-black fixed px-10 py-6 top-0 right-0 z-50 mr-36 mt-8 rounded-full border border-neutral-800 dark:border-white/[0.2] ">
+      <nav className="bg-black fixed px-10 py-6 top-0 right-0 z-50 mt-8 rounded-full border border-neutral-800 dark:border-white/[0.2] md:mr-36 mr-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-bold"></div>
           <div className="hidden md:flex space-x-6">
@@ -48,19 +48,25 @@ const Navbar = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden bg-gray-800">
-            <div className="flex flex-col space-y-2">
+          <div className="md:hidden">
+            <div className="flex flex-col space-y-4 items-center">
               <Link href="/" onClick={toggleMenu}>
-                Home
+                Pre Wedding
               </Link>
-              <Link href="/" onClick={toggleMenu}>
-                Home
+              <Link href="/mehendi" onClick={toggleMenu}>
+              Mehendi
               </Link>
-              <Link href="/" onClick={toggleMenu}>
-                Home
+              <Link href="/pranjali-haldi" onClick={toggleMenu}>
+              Pranjali Haldi
               </Link>
-              <Link href="/" onClick={toggleMenu}>
-                Home
+              <Link href="/soumitra-haldi" onClick={toggleMenu}>
+              Soumitra Haldi
+              </Link>
+              <Link href="/wedding" onClick={toggleMenu}>
+              Wedding
+              </Link>
+              <Link href="/video" onClick={toggleMenu}>
+              Video
               </Link>
             </div>
           </div>

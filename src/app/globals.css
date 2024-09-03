@@ -39,3 +39,10 @@ body {
     text-wrap: balance;
   }
 }
+
+@media (max-width: 599px) {
+  .react-player {
+    width: 90% !important;
+    height: auto !important;
+  }
+}
