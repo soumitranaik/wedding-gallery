@@ -1,14 +1,32 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { WavyBackground } from "./ui/wavy-background";
 
+import ReactPlayer from 'react-player';
+
+
 export function Video() {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
   return (
-    <WavyBackground className="max-w-4xl mx-auto pb-40">
-      <video width="750"
-        src="https://drive.google.com/file/d/1iiwkUOlN9kj24E9FN6hxxRVsnI6honl6/view?usp=drive_link"
-        controls
-      ></video>
+    <WavyBackground>
+    <div className="flex items-center justify-center h-screen">
+      <div className="player-wrapper ">
+        {isMounted && (
+          <ReactPlayer
+            className="react-player"
+            url="https://youtu.be/DqWwAAxLpTc"
+            height="720px"
+            width="1080px"
+            controls={true}
+          />
+        )}
+      </div>
+      
+    </div>
     </WavyBackground>
   );
 }

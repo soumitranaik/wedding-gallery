@@ -461,9 +461,6 @@ const imageIds = [
 '1ZrboDVR-QomgIIjv4sai2jkUfyOByUA5',
 '1LUrGfW6qwXwtlcpQrEITLvfJVuKARTeU',
 '1_nhvzCM1jEWMBMZFoCrbVoN9PRSbFFrl'
-
-
-
 ];
 
 const generateDynamicEl = (ids: string[]) => {
