@@ -91,7 +91,7 @@ const AlbumPage = ({ folderName, slideCount }: AlbumPageProps) => {
   return (
     <div
       className={cn(
-        "mx-auto flex w-full flex-1 flex-col overflow-hidden rounded-md border bg-black md:flex-row",
+        "mx-auto flex w-full flex-1 flex-col overflow-hidden rounded-md bg-black md:flex-row",
         "h-[100vh]"
       )}
     >
