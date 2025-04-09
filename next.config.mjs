@@ -1,18 +1,23 @@
-import withPWAInit from "@ducanh2912/next-pwa";
+import withPWA from "@ducanh2912/next-pwa";
 
-const withPWA = withPWAInit({
-    dest: "public",
-    cacheOnFrontEndNav: true,
-    aggressiveFrontEndNavCaching: true,
-    reloadOnOnline: true,
-    swcMinify:true,
-    disable: false,
-    workboxOptions: {
-        disableDevLogs: true,
-    }
-  });
+const pwaConfig = withPWA({
+  dest: "public",
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
+  reloadOnOnline: true,
+  swcMinify: true,
+  disable: false,
+  workboxOptions: {
+    disableDevLogs: true,
+  },
+});
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ['swiperjs.com', 'res.cloudinary.com'],
+  },
+  
+};
 
-export default withPWA(nextConfig);
+export default pwaConfig(nextConfig);

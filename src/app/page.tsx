@@ -1,6 +1,6 @@
-import { HeroParallaxDemo } from "./components/Hero";
-import Navbar from "./components/Navbar";
-import { VortexDemo } from "./components/Vortexhome";
+import { HeroParallaxDemo } from "../components/Hero";
+import Navbar from "../components/Navbar";
+import { VortexDemo } from "../components/Vortexhome";
 
 
 export default function Home() {

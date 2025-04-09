@@ -1,10 +1,7 @@
-import React from 'react'
-import { PHaldi } from '../components/PranjaliHaldi'
+import AlbumPage from "../../components/AlbumPage";
 
-const page = () => {
-  return (
-    <PHaldi />
-  )
+export const MehendiPage = () => {
+  return <AlbumPage folderName="pranjali-haldi" slideCount={351} />
 }
 
-export default page
+export default MehendiPage;

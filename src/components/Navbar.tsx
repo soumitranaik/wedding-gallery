@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="text-white font-bold"></div>
           <div className="hidden md:flex space-x-6">
             <div></div>
-            <Link href="/">Pre-wedding</Link>
+            <Link href="/pre-wedding">Pre-wedding</Link>
             <Link href="/mehendi">Mehendi</Link>
             <Link href="/pranjali-haldi">Pranjali Haldi</Link>
             <Link href="/soumitra-haldi">Soumitra Haldi</Link>

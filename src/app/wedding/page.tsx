@@ -1,10 +1,7 @@
-import React from 'react'
-import { Wedding } from '../components/Wedding'
+import AlbumPage from "../../components/AlbumPage";
 
-const page = () => {
-  return (
-    <Wedding />
-  )
+export const MehendiPage = () => {
+  return <AlbumPage folderName="wedding" slideCount={389} />
 }
 
-export default page
+export default MehendiPage;
