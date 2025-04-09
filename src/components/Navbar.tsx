@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       <div></div>
-      <nav className="bg-black fixed px-10 py-6 top-0 right-0 z-50 mt-8 rounded-full border border-neutral-800 dark:border-white/[0.2] md:mr-36 mr-4">
+      <nav className="bg-black fixed px-10 py-6 top-0 right-0 z-50 mt-8 rounded-3xl md:rounded-full border border-neutral-800 dark:border-white/[0.2] md:mr-36 mr-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-bold"></div>
           <div className="hidden md:flex space-x-6">
