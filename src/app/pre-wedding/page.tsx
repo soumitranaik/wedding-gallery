@@ -1,7 +1,7 @@
 import AlbumPage from "../../components/AlbumPage";
 
-export const MehendiPage = () => {
+const preWedding = () => {
   return <AlbumPage folderName="pre-wedding" slideCount={61} />
 }
 
-export default MehendiPage;
+export default preWedding;

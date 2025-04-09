@@ -32,7 +32,6 @@ import { GiBigDiamondRing, GiAmpleDress  } from "react-icons/gi";
 import { PiHandsPraying  } from "react-icons/pi";
 import { BiPhotoAlbum } from "react-icons/bi";
 import { LiaPrayingHandsSolid } from "react-icons/lia";
-import { GiFlowers } from "react-icons/gi";
 import { TbFeather } from "react-icons/tb";
 
 interface AlbumPageProps {

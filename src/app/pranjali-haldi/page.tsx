@@ -1,7 +1,7 @@
 import AlbumPage from "../../components/AlbumPage";
 
-export const MehendiPage = () => {
+const PHaldi = () => {
   return <AlbumPage folderName="pranjali-haldi" slideCount={351} />
 }
 
-export default MehendiPage;
+export default PHaldi;
