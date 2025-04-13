@@ -11,13 +11,13 @@ type FaceMatchResult = {
   position: { x: number; y: number };
 };
 
-export default function FaceRecognitionScanner({
+const FaceRecognitionScanner = ({
   folderName,
   similarityThreshold = 0.6,
 }: {
   folderName: string;
   similarityThreshold?: number;
-}) {
+}) => {
   const [images, setImages] = useState<string[]>([]);
   const [matches, setMatches] = useState<FaceMatchResult[]>([]);
   const [progress, setProgress] = useState(0);
@@ -256,3 +256,5 @@ export default function FaceRecognitionScanner({
     </div>
   );
 }
+
+export default FaceRecognitionScanner;
