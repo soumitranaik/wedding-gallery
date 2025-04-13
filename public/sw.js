@@ -67,12 +67,12 @@ if (!self.define) {
     });
   };
 }
-define(['../../../../Documents/Soumitra/wedding/wedding cloned/wedding/node_modules/@ducanh2912/next-pwa/node_modules/workbox-routing/registerRoute.mjs', '../../../../Documents/Soumitra/wedding/wedding cloned/wedding/node_modules/@ducanh2912/next-pwa/node_modules/workbox-strategies/NetworkFirst.mjs', '../../../../Documents/Soumitra/wedding/wedding cloned/wedding/node_modules/@ducanh2912/next-pwa/node_modules/workbox-strategies/NetworkOnly.mjs', '../../../../Documents/Soumitra/wedding/wedding cloned/wedding/node_modules/@ducanh2912/next-pwa/node_modules/workbox-core/clientsClaim.mjs'], (function (registerRoute_mjs, NetworkFirst_mjs, NetworkOnly_mjs, clientsClaim_mjs) { 'use strict';
+define(['./workbox-7144475a'], (function (workbox) { 'use strict';
 
   importScripts();
   self.skipWaiting();
-  clientsClaim_mjs.clientsClaim();
-  registerRoute_mjs.registerRoute("/", new NetworkFirst_mjs.NetworkFirst({
+  workbox.clientsClaim();
+  workbox.registerRoute("/", new workbox.NetworkFirst({
     "cacheName": "start-url",
     plugins: [{
       cacheWillUpdate: async ({
@@ -84,7 +84,7 @@ define(['../../../../Documents/Soumitra/wedding/wedding cloned/wedding/node_modu
       }) : e
     }]
   }), 'GET');
-  registerRoute_mjs.registerRoute(/.*/i, new NetworkOnly_mjs.NetworkOnly({
+  workbox.registerRoute(/.*/i, new workbox.NetworkOnly({
     "cacheName": "dev",
     plugins: []
   }), 'GET');
