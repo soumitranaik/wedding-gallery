@@ -8,13 +8,13 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "4th May 2024",
-    link: "#",
+    link: "/pre-wedding",
     thumbnail:
       "/images/wedding/prewedding hero.jpg",
   },
   {
     title: "5th May 2025",
-    link: "#",
+    link: "/video",
     thumbnail:
       "/images/wedding/weddingvideohero.jpg",
   },
@@ -27,7 +27,7 @@ export const products = [
 
   {
     title: "May 2024",
-    link: "#",
+    link: "/pre-wedding",
     thumbnail:
       "/images/wedding/prewedding hero.jpg",
   },
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     title: "May 2025",
-    link: "#",
+    link: "/pre-wedding",
     thumbnail:
       "/images/wedding/prewedding hero.jpg",
   },
@@ -83,7 +83,7 @@ export const products = [
   },
   {
     title: "5th May 2024",
-    link: "#",
+    link: "/pre-wedding",
     thumbnail:
       "/images/wedding/prewedding hero.jpg",
   },
